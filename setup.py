@@ -16,9 +16,9 @@ setup(
     license='BSD License',
     description='A Django app for processing municipality-related geospatial data.',
     long_description=README,
-    url='https://github.com/City-of-Helsinki/django-munigeo',
-    author='City of Helsinki',
-    author_email='dev@hel.fi',
+    url='https://github.com/City-of-Turku/django-munigeo',
+    author='City of Turku',
+    author_email='matias.peltonen@turku.fi',
     install_requires=[
         'Django',
         'requests',
