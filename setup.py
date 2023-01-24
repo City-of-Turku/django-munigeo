@@ -10,7 +10,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-munigeo-turku',
-    version='0.3.6',
+    version='tku-v0.3',
     packages=['munigeo'],
     include_package_data=True,
     license='BSD License',
@@ -18,7 +18,7 @@ setup(
     long_description=README,
     url='https://github.com/City-of-Turku/django-munigeo',
     author='City of Turku',
-    author_email='matias.peltonen@turku.fi',
+    author_email='sovellustuki@turku.fi',
     install_requires=[
         'Django',
         'requests',
@@ -46,6 +46,8 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
         'Topic :: Internet :: WWW/HTTP',
         'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
         'Topic :: Scientific/Engineering :: GIS',
