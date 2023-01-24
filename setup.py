@@ -10,7 +10,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-munigeo-turku',
-    version='tku-v0.3',
+    version='0.3',
     packages=['munigeo'],
     include_package_data=True,
     license='BSD License',
